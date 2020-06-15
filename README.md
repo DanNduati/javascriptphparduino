@@ -1,2 +1,1 @@
-# javascriptphparduino
-This is a research project
+# Php arduino and processing
