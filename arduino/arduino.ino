@@ -1,5 +1,5 @@
-const int ledPin = 13; // the pin that the LED is attached to - change this if you have a separate LED connected to another pin
-int incomingByte;      // a variable to read incoming serial data into
+const int ledPin = 13; 
+int incomingByte;      // a variable to store incoming serial data into
  
 void setup() {
   // initialize serial communication:
