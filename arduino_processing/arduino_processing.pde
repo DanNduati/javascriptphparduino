@@ -3,8 +3,6 @@
  
  void setup()  {
  
-   /* This part must be altered to fit your local settings. The number in brackets after "Serial.list()" is where you declare what COM port your Arduino is connected to.
-      If you get error messages, try a different number starting from 0 (e.g. 0, 1, 2, 3...) . */
     port = new Serial(this, Serial.list()[1], 9600);  // Open the port that the Arduino board is connected to, at 9600 baud
  
 }
